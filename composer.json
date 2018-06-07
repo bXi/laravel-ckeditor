@@ -5,13 +5,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Alex Scott",
-            "email": "codetheorist@gmail.com"
+            "name": "Dennis Meinen",
+            "email": "dennis.meinen@webba.nl"
         }
     ],
     "autoload": {
         "psr-4": {
-            "JeroenNoten\\LaravelCkEditor\\": "src/"
+            "Webba\\LaravelCkEditor\\": "src/"
         }
     },
     "autoload-dev": {
