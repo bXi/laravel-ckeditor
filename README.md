@@ -15,13 +15,13 @@ It provides a custom blade directive `@ckeditor('textareaId')` to quickly integr
 1. Require the package using composer:
 
     ```
-    composer require bXi/laravel-ckeditor
+    composer require webbatools/laravel-ckeditor
     ```
 
 2. Add the service provider to the `providers` in `config/app.php`:
 
     ```php
-    bXi\LaravelCkEditor\ServiceProvider::class,
+    webbatools\LaravelCkEditor\ServiceProvider::class,
     ```
 
 3. Publish the public assets:
@@ -35,7 +35,7 @@ It provides a custom blade directive `@ckeditor('textareaId')` to quickly integr
 1. To update this package, first update the composer package:
 
     ```
-    composer update bXi/laravel-ckeditor
+    composer update webbatools/laravel-ckeditor
     ```
 
 2. Then, publish the public assets with the `--force` flag to overwrite existing files
